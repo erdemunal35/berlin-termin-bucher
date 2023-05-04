@@ -1,0 +1,146 @@
+1677940910633	geckodriver	INFO	Listening on 127.0.0.1:57414
+1677942705967	geckodriver	INFO	Listening on 127.0.0.1:49761
+1678989934901	geckodriver	INFO	Listening on 127.0.0.1:53581
+1678990272641	geckodriver	INFO	Listening on 127.0.0.1:54234
+1678990530746	geckodriver	INFO	Listening on 127.0.0.1:54366
+1678990600826	geckodriver	INFO	Listening on 127.0.0.1:54445
+1678990796550	geckodriver	INFO	Listening on 127.0.0.1:54619
+1678990857654	geckodriver	INFO	Listening on 127.0.0.1:54653
+1678991003061	geckodriver	INFO	Listening on 127.0.0.1:54720
+1678991006280	geckodriver	INFO	Listening on 127.0.0.1:54731
+1678991353999	geckodriver	INFO	Listening on 127.0.0.1:54886
+1678992884512	geckodriver	INFO	Listening on 127.0.0.1:55810
+1678992904285	geckodriver	INFO	Listening on 127.0.0.1:55823
+1678992931132	geckodriver	INFO	Listening on 127.0.0.1:55879
+1678993044973	geckodriver	INFO	Listening on 127.0.0.1:55973
+1678993192090	geckodriver	INFO	Listening on 127.0.0.1:56018
+1678993192668	mozrunner::runner	INFO	Running command: "/Users/uena034/Desktop/Erdem/mozilla/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debug ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0z/g7_2dmr93219x2whdj_v6dtc0000gq/T/rust_mozprofileIR9dsb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678993207242	Marionette	INFO	Marionette enabled
+1678993207515	Marionette	INFO	Listening on port 56041
+Read port: 56041
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:56019
+1678993207682	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0z/g7_2dmr93219x2whdj_v6dtc0000gq/T/rust_mozprofileIR9dsb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56019/devtools/browser/cde6c9de-1e83-4dc5-8126-55ef78d53313
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+1678993214739	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+1678993220771	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "Task cancelled"
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.error: "Unable to find target with innerWindowId:6442450953"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+1678993305968	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent1035
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent1065
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent1090
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: "Unable to find target with innerWindowId:6442450954"
+console.error: "Unable to find target with innerWindowId:6442450954"
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent1127
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent1181
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent1127
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent1127
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent1127
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent1127
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent1127
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent1127
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent1127
+1678993313218	geckodriver	INFO	Listening on 127.0.0.1:56382
+1678993313767	mozrunner::runner	INFO	Running command: "/Users/uena034/Desktop/Erdem/mozilla/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debug ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0z/g7_2dmr93219x2whdj_v6dtc0000gq/T/rust_mozprofileb9ykRO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678993314326	Marionette	INFO	Marionette enabled
+1678993314530	Marionette	INFO	Listening on port 56393
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 56393
+WebDriver BiDi listening on ws://127.0.0.1:56383
+1678993314673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0z/g7_2dmr93219x2whdj_v6dtc0000gq/T/rust_mozprofileb9ykRO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56383/devtools/browser/45b80ebf-bb3d-4502-a5a2-d0258e71c8c7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.error: "Task cancelled"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Unable to find target with innerWindowId:6442450946"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.error: "Task cancelled"
+1678993322024	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "Unable to find target with innerWindowId:6442450947"
+console.error: "Unable to find target with innerWindowId:6442450947"
+console.error: "Unable to find target with innerWindowId:6442450947"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.error: "Unable to find target with innerWindowId:6442450949"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://otv.verwalt-berlin.de."
+console.error: "Task cancelled"
+1678993327067	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: "stylesheets: fetch failed for https://otv.verwalt-berlin.de/javax.faces.resource/theme/project.min.css.xhtml?ln=berlin&v=3.2.4, using system principal instead."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent2731
+console.error: "Tried to send a 'getApplied' method reply on an already destroyed actor 'pagestyle'"
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2731
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2731
+console.error: "isValidHoverTarget rejected with unexpected reason:"
+console.error: (new Error("Error while calling method getResponseContent: No such actor for ID: server0.conn0.netEvent2731", "resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js", 641))
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getResponseHeaders: No such actor for ID: server0.conn0.netEvent2731
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getResponseCookies: No such actor for ID: server0.conn0.netEvent2782
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getResponseCookies: No such actor for ID: server0.conn0.netEvent2818
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getEventTimings: No such actor for ID: server0.conn0.netEvent2731
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2756
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2756
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestCookies: No such actor for ID: server0.conn0.netEvent2756
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestCookies: No such actor for ID: server0.conn0.netEvent2756
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2756
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2756
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getResponseHeaders: No such actor for ID: server0.conn0.netEvent2818
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2818
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getResponseHeaders: No such actor for ID: server0.conn0.netEvent2782
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2782
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2818
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2818
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2818
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2818
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2782
+JavaScript error: resource://devtools/client/netmonitor/src/connector/firefox-data-provider.js, line 641: Error: Error while calling method getRequestHeaders: No such actor for ID: server0.conn0.netEvent2782
+console.error: (new TypeError("watcher.browserElement.browsingContext is null", "resource://devtools/server/actors/watcher/target-helpers/frame-helper.js", 193))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1679005764840	geckodriver	INFO	Listening on 127.0.0.1:52954

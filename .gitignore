@@ -1,0 +1,6 @@
+.env/
+env/
+.ipynb_checkpoints/
+.vscode
+__pycache__
+drivers/
