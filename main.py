@@ -5,6 +5,10 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+from webdriver_manager.chrome import ChromeDriverManager
 
 def write_file(output: str):
     with open('output.txt', 'w') as f:
@@ -25,6 +29,7 @@ if __name__ == "__main__":
 
     options = Options()
     options.headless = False
+    options.add_argument("--disable-blink-features=AutomationControlled")
     # options.add_argument("--window-size=1920,1200")
 
     bookAppointmentUrl = "https://otv.verwalt-berlin.de/ams/TerminBuchen/wizardng?sprachauswahl=en"
@@ -34,16 +39,24 @@ if __name__ == "__main__":
     checkboxNAME = "gelesen"
 
     main_page = "https://otv.verwalt-berlin.de/ams/TerminBuchen?lang=en"
-    driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+    # driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
     # Land in main page
     driver.get(main_page)
     continue_link = driver.find_element(By.LINK_TEXT, 'Book Appointment')
     continue_link.click()
-    driver.implicitly_wait(4)
-    driver.quit()
+    driver.implicitly_wait(5)
+    # driver.quit()
     
+    gelesen_checkbox = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.NAME, checkboxNAME)))
+    gelesen_checkbox.click()
+    driver.implicitly_wait(2)
+    # Click the "Next" button
+    next_button = driver.find_element(By.NAME, "applicationForm:managedForm:proceed")
+    next_button.click()
+    time.sleep(10)
     # Click to Termin Buchen Button
-    time.sleep(4)
+
     select = Select(driver.find_element(By.NAME, 'sel_staat'))
     select.select_by_value("163")
     time.sleep(1)
@@ -54,8 +67,8 @@ if __name__ == "__main__":
     select.select_by_value("2")
     time.sleep(1)
     # driver.find_element(By.XPATH, "//input[@class='ozg-kachel kachel-163-0-2 level1']/input[@id='SERVICEWAHL_EN3163-0-2']").click()
-    driver.find_element(By.XPATH, ".//input[@type='radio' and @value='163-0-2']").send_keys()
-    # driver.find_element(By.XPATH, "//div[@class='level3']/input[@name='level3']").click()
+    driver.find_element(By.XPATH, ".//input[@type='radio' and @value='163-0-2']").click()
+    driver.find_element(By.XPATH, "//div[@class='level3']/input[@name='level3']").click()
     time.sleep(5)
 
     # print("here")
